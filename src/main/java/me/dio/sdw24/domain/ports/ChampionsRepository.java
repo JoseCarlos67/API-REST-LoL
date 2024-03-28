@@ -1,11 +1,11 @@
 package me.dio.sdw24.domain.ports;
 
-import me.dio.sdw24.domain.model.Champions;
+import me.dio.sdw24.domain.model.Champion;
 
 import java.util.List;
 import java.util.Optional;
 
 public interface ChampionsRepository {
-    List<Champions> findAll();
-    Optional<Champions> findByID(Long id);
+    List<Champion> findAll();
+    Optional<Champion> findByID(Long id);
 }
